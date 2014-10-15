@@ -1,0 +1,75 @@
+/*
+CSS Comment
+ */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  /*font: font-style font-variant font-weight font-size/line-height font-family;*/
+  font: normal normal normal 16px/1.2 'Lato', sans-serif;
+  /*background-image: url(../img/congruent_outline.png);*/
+  background-image: url(../img/footer_lodyas.png);
+  /*background-image: url(../img/stardust.png);*/
+  /*background-image: url(../img/mochaGrunge.png);*/
+}
+
+header {
+  margin: 10% 0 0;
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+header a {
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+header a:nth-child(2n) {
+  margin: 0 1em;
+}
+
+header .facebook:hover {
+  color: #3a58b0;
+}
+
+header .twitter:hover {
+  color: #55acee;
+}
+
+header .youtube:hover {
+  color: #e52d27;
+}
+
+section, footer {
+  padding: 2em;
+  color: black;
+  max-width: 700px;
+  margin: 2em auto;
+  background: white;
+}
+
+section h3 {
+  margin-top: 0;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th, table td {
+  text-align: left;
+  padding: 0.5em;
+  border: 1px solid #CECECE;
+}
