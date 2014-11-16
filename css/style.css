@@ -2,6 +2,7 @@
 CSS Comment
  */
 
+/* make the site 100% height */
 html, body {
   height: 100%;
 }
@@ -20,9 +21,11 @@ body {
 
 header {
   margin: 10% 0 0;
+  /* center everything in the header */
   text-align: center;
 }
 
+/* make any images in the header be round */
 header img {
   border-radius: 50%;
 }
@@ -31,11 +34,18 @@ header a {
   color: white;
   font-size: 1.5em;
   text-decoration: none;
+  /* add a margin to the right to push space all the links */
+  margin: 0 1em 0 0;
 }
 
-header a:nth-child(2n) {
-  margin: 0 1em;
+/* make the last item have no margin */
+header a:last-child {
+  margin: 0;
 }
+
+/*
+All the hover effects for each network
+ */
 
 header .facebook:hover {
   color: #3a58b0;
@@ -45,22 +55,37 @@ header .twitter:hover {
   color: #55acee;
 }
 
+header .warpaint:hover {
+  color: #9EC02A;
+}
+
+header .google-plus:hover {
+  color: #dd4b39;
+}
+
 header .youtube:hover {
   color: #e52d27;
 }
 
+/* styles for the section and footer elements */
 section, footer {
   padding: 2em;
-  color: black;
+  color: #555;
   max-width: 700px;
   margin: 2em auto;
   background: white;
 }
 
+/* headers normally have a margin, remove it */
 section h3 {
   margin-top: 0;
 }
 
+a {
+  color: black;
+}
+
+/* make the table full width, and make the borders combined */
 table {
   table-layout: fixed;
   width: 100%;
@@ -68,6 +93,7 @@ table {
   border-spacing: 0;
 }
 
+/* make all the th and td elements the same */
 table th, table td {
   text-align: left;
   padding: 0.5em;
