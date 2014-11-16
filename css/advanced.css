@@ -1,0 +1,77 @@
+/* ======================= /
+===  Advanced Effects ==== /
+========================= */
+
+/* target the transform poperty and set the initial scale to 1, which is no scaling */
+header a i {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.2s ease;
+}
+
+header a:hover i {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+/* tilt the header image when hovering */
+header img {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: all 0.2s ease;
+}
+
+header img:hover {
+  -webkit-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+}
+
+
+/* Fade in the secitons when hovering */
+section {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+section:hover {
+  opacity: 1;
+}
+
+/* show the text when hovering */
+section p {
+  font-size: 0;
+  transition: font-size 1s ease;
+}
+
+section:hover p {
+  font-size: 1em;
+}
+
+/* toggle role */
+
+/* we add position relative so that anything that has absolute positioning is relative to this element */
+.role {
+  position: relative;
+  height: 2em;
+  width: 100px;
+  margin: 0 auto;
+}
+
+/* inital styles for both elements */
+.role .first,
+.role .second {
+  margin: 0;
+  position: absolute;
+  transition: opacity 0.2s ease;
+}
+
+/* when hovering, swap */
+.role:hover .second,
+.role .first {
+  opacity: 1;
+}
+
+.role .second,
+.role:hover .first {
+  opacity: 0;
+}
