@@ -2,7 +2,7 @@
 CSS Comment
  */
 
-/* make the site 100% height */
+/* make the site 100% of the browser height */
 html, body {
   height: 100%;
 }
@@ -11,6 +11,7 @@ body {
   padding: 0;
   margin: 0;
   color: white;
+  /* http://css-tricks.com/snippets/css/font-shorthand/ */
   /*font: font-style font-variant font-weight font-size/line-height font-family;*/
   font: normal normal normal 16px/1.2 'Lato', sans-serif;
   /*background-image: url(../img/congruent_outline.png);*/
@@ -45,6 +46,7 @@ header a:last-child {
 
 /*
 All the hover effects for each network
+http://brandcolors.net/
  */
 
 header .facebook:hover {
@@ -79,6 +81,8 @@ section, footer {
 /* headers normally have a margin, remove it */
 section h3 {
   margin-top: 0;
+  /*font-variant: small-caps;*/
+  /*text-transform: uppercase;*/
 }
 
 a {
