@@ -7,3 +7,12 @@ Codeful Demo
 The Codeful "Build Your Brand" design and code page.
 
 ![screenshot](https://raw.githubusercontent.com/WARPAINTMedia/nspire-build-your-brand/master/screenshot.jpeg)
+
+## Links
+
+* [HTML5 Up Themes](http://html5up.net/)
+* [Sublime Text Package Control](https://sublime.wbond.net/)
+* [CSS Tricks](http://css-tricks.com/)
+* [HTML5 Doctor](http://html5doctor.com/)
+* [Codrops](http://tympanus.net/codrops/)
+* [Codepen.io](http://codepen.io/)
